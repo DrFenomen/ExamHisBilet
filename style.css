@@ -104,14 +104,19 @@ footer>ul
 {
     color:red;
 }
-.Info_Item
+.Info_Item {
+    color:white;
+    text-decoration: none;
+}
+.Test
 {
     width:15vw;
     border:none;
     height: 5vw;
     font-size: 3vw;
     border-radius: 10px;
-    text-decoration: none;
-    color: white;
     background: #FF6B00;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
