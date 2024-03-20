@@ -1,84 +1,49 @@
 
 body
 {
+    overflow-x:hidden;
     margin:0;
     background-image: url("Frame 5.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media(min-width: 768px)
+nav
 {
-    nav
-    {
-        position:fixed ;
-        display: grid;
-        grid-template-columns: 12.5vw 25vw 25vw 25vw 12.5vw;
-        width:100%;
-        align-items: center;
-        height:10vh;
-        background: #453C41;
+    animation:nav 1s;
+    position:fixed ;
+    display: grid;
+    grid-template-columns: 12.5vw 25vw 25vw 25vw 12.5vw;
+    width:100vw;
+    align-items: center;
+    height:10vh;
+    background: #453C41;
 
-    }
-    .Nav_Item1,
-    .Nav_Item2,
-    .Nav_Item3
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 10vh;
-        font-family: sans-serif;
-        text-align: center;
-        font-size:2vw;
-        text-decoration: none;
-        color:white;
-    }
-    .Nav_Selection
-    {
-        font-family: "Yu Gothic UI Light";
-        width:10vw;
-        height:4.5vh;
-        align-content: center;
-        background: #D4DBE2;
-        font-size: 1vw;
-    }
 }
-@media(max-width: 426px)
+@keyframes nav {
+    from{margin-top:-10vw;}
+}
+@keyframes info
 {
-    nav
-    {
-        position:fixed ;
-        display: grid;
-        grid-template-columns: 25vw 25vw 25vw 25vw ;
-        width:100%;
-        align-items: center;
-        height:6.5vh;
-        background: #453C41;
-
-    }
-    .Nav_Item1,
-    .Nav_Item2,
-    .Nav_Item3
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 6.5vh;
-        font-family: sans-serif;
-        text-align: center;
-        font-size:2.5vw;
-        text-decoration: none;
-        color:white;
-    }
-    .Nav_Selection
-     {
-         font-family: "Yu Gothic UI Light";
-         width:25vw;
-         height:3vh;
-         align-content: center;
-         background: #D4DBE2;
-         font-size: 2.5vw;
-     }
+    from{margin-top:-600%; margin-bottom: 600%;}
+}
+.Nav_Selection
+{
+    text-align: center;
+    height:4.5vw;
+}
+.Nav_Item1,
+.Nav_Item2,
+.Nav_Item3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:2vw;
+    text-decoration: none;
+    color:white;
 }
 .Nav_Item2:active,
 .Nav_Item1:active,
@@ -86,18 +51,29 @@ body
 {
     background: #7B7C81;
 }
+
+.Nav_Selection
+{
+    font-family: "Yu Gothic UI Light";
+    width:10vw;
+    height:4.5vh;
+    align-content: center;
+    background: #D4DBE2;
+    font-size: 1vw;
+}
 .Select_Start
 {
     display: none;
 }
 .Info
 {
+    animation: info 2s;
     padding-left: 3vw;
     font-family: "Yu Gothic UI Light";
     margin-top: 10vh;
     font-size: 2.5vw;
     width:60%;
-    height:auto;
+    height: 450%;
     background: rgb(212, 219, 226, 0.8);
     padding-bottom: 3vw;
 }
@@ -126,7 +102,7 @@ footer
     color:white;
 }
 footer>ul
-{    font-size: 2vw;
+{    font-size: 1.5vw;
     font-family: sans-serif;
     list-style-type: none;
 }
