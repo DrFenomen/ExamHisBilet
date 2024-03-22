@@ -120,6 +120,21 @@ body
     background: rgb(212, 219, 226, 0.8);
     padding-bottom: 3vw;
 }
+.Info1-2,
+.Info2-1,
+.Info2-2
+{
+    display:none;
+    animation: info 2s;
+    padding-left: 3vw;
+    font-family: "Yu Gothic UI Light";
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    width:60%;
+    height: 450%;
+    background: rgb(212, 219, 226, 0.8);
+    padding-bottom: 3vw;
+}
 .Flex_Info
 {
     display: flex;
@@ -132,11 +147,7 @@ body
     justify-content: center;
     align-items: center;
 }
-.Info>h1,
-.Info>h2
-{
-    text-align: center;
-}
+
 footer
 {
     display: flex;
@@ -172,4 +183,9 @@ footer>ul
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.Test>a
+{
+    text-decoration: none;
+    color:white;
 }
