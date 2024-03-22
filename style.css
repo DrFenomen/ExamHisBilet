@@ -122,7 +122,8 @@ body
 }
 .Info1-2,
 .Info2-1,
-.Info2-2
+.Info2-2,
+.Info3-1
 {
     display:none;
     animation: info 2s;
