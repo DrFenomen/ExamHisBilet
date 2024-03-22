@@ -5,6 +5,7 @@ var test101=document.querySelector('.test101');
 var test102=document.querySelector('.test102');
 var bilet201=document.querySelector('.Info2-1');
 var bilet202=document.querySelector('.Info2-2');
+var bilet301=document.querySelector('.Info3-1');
 select.onchange = (e) => {
  var item = select.value;
   if(item =='1.1')
@@ -35,5 +36,12 @@ select.onchange = (e) => {
  }
  else {
   bilet202.style.display = "none";
+ }
+ if(item =='3.1')
+ {
+  bilet301.style.display = "inline";
+ }
+ else {
+  bilet301.style.display = "none";
  }
 }
