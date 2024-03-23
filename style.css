@@ -46,6 +46,34 @@ body
         background: #D4DBE2;
         font-size: 1vw;
     }
+    .Info
+{
+    animation: info 2s;
+    padding-left: 3vw;
+    font-family: "Yu Gothic UI Light";
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    width:60%;
+    height: 450%;
+    background: rgb(212, 219, 226, 0.8);
+    padding-bottom: 3vw;
+}
+.Info1-2,
+.Info2-1,
+.Info2-2,
+.Info3-1
+{
+    display:none;
+    animation: info 2s;
+    padding-left: 3vw;
+    font-family: "Yu Gothic UI Light";
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    width:60%;
+    height: 450%;
+    background: rgb(212, 219, 226, 0.8);
+    padding-bottom: 3vw;
+}
 }
 @media(max-width: 426px)
 {
@@ -88,6 +116,34 @@ body
         background: #D4DBE2;
         font-size: 2.5vw;
     }
+    .Info
+{
+    animation: info 2s;
+    padding-left: 3vw;
+    font-family: "Yu Gothic UI Light";
+    margin-top: 6.5vh;
+    font-size: 2.5vw;
+    width:60%;
+    height: 450%;
+    background: rgb(212, 219, 226, 0.8);
+    padding-bottom: 3vw;
+}
+.Info1-2,
+.Info2-1,
+.Info2-2,
+.Info3-1
+{
+    display:none;
+    animation: info 2s;
+    padding-left: 3vw;
+    font-family: "Yu Gothic UI Light";
+    margin-top: 6.5vh;
+    font-size: 2.5vw;
+    width:60%;
+    height: 450%;
+    background: rgb(212, 219, 226, 0.8);
+    padding-bottom: 3vw;
+}
 }
 @keyframes nav {
     from{margin-top:-10vw;}
@@ -108,47 +164,12 @@ body
 {
     display: none;
 }
-.Info
-{
-    animation: info 2s;
-    padding-left: 3vw;
-    font-family: "Yu Gothic UI Light";
-    margin-top: 10vh;
-    font-size: 2.5vw;
-    width:60%;
-    height: 450%;
-    background: rgb(212, 219, 226, 0.8);
-    padding-bottom: 3vw;
-}
-.Info1-2,
-.Info2-1,
-.Info2-2,
-.Info3-1
-{
-    display:none;
-    animation: info 2s;
-    padding-left: 3vw;
-    font-family: "Yu Gothic UI Light";
-    margin-top: 10vh;
-    font-size: 2.5vw;
-    width:60%;
-    height: 450%;
-    background: rgb(212, 219, 226, 0.8);
-    padding-bottom: 3vw;
-}
+
 .Flex_Info
 {
     display: flex;
     justify-content: center;
 }
-.Nav_Logo
-{
-    height:4vh;
- display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 footer
 {
     display: flex;
