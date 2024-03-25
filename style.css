@@ -47,33 +47,78 @@ body
         font-size: 1vw;
     }
     .Info
-{
-    animation: info 2s;
-    padding-left: 3vw;
-    font-family: "Yu Gothic UI Light";
-    margin-top: 10vh;
-    font-size: 2.5vw;
-    width:60%;
-    height: 450%;
-    background: rgb(212, 219, 226, 0.8);
-    padding-bottom: 3vw;
-}
-.Info1-2,
-.Info2-1,
-.Info2-2,
-.Info3-1
-{
-    display:none;
-    animation: info 2s;
-    padding-left: 3vw;
-    font-family: "Yu Gothic UI Light";
-    margin-top: 10vh;
-    font-size: 2.5vw;
-    width:60%;
-    height: 450%;
-    background: rgb(212, 219, 226, 0.8);
-    padding-bottom: 3vw;
-}
+    {
+        animation: info 2s;
+        padding-left: 3vw;
+        font-family: "Yu Gothic UI Light";
+        margin-top: 10vh;
+        font-size: 2.5vw;
+        width:60%;
+        height: 450%;
+        background: rgb(212, 219, 226, 0.8);
+        padding-bottom: 3vw;
+    }
+    .Info1-2,
+    .Info2-1,
+    .Info2-2,
+    .Info3-1,
+    .Info3-2,
+    .Info4-1,
+    .Info4-2,
+    .Info5-1,
+    .Info5-2,
+    .Info6-1,
+    .Info6-2,
+    .Info7-1,
+    .Info7-2,
+    .Info8-1,
+    .Info8-2,
+    .Info9-1,
+    .Info9-2,
+    .Info10-1,
+    .Info10-2,
+    .Info11-1,
+    .Info11-2,
+    .Info12-1,
+    .Info12-2,
+    .Info13-1,
+    .Info13-2,
+    .Info14-1,
+    .Info14-2,
+    .Info15-1,
+    .Info15-2,
+    .Info16-1,
+    .Info16-2,
+    .Info17-1,
+    .Info17-2,
+    .Info18-1,
+    .Info18-2,
+    .Info19-1,
+    .Info19-2,
+    .Info20-1,
+    .Info20-2,
+    .Info21-1,
+    .Info21-2,
+    .Info22-1,
+    .Info22-2,
+    .Info23-1,
+    .Info23-2,
+    .Info24-1,
+    .Info24-2,
+    .Info25-1,
+    .Info25-2
+    {
+        display:none;
+        animation: info 2s;
+        padding-left: 3vw;
+        font-family: "Yu Gothic UI Light";
+        margin-top: 10vh;
+        font-size: 2.5vw;
+        width:60%;
+        height: 450%;
+        background: rgb(212, 219, 226, 0.8);
+        padding-bottom: 3vw;
+    }
 }
 @media(max-width: 426px)
 {
@@ -117,33 +162,78 @@ body
         font-size: 2.5vw;
     }
     .Info
-{
-    animation: info 2s;
-    padding-left: 3vw;
-    font-family: "Yu Gothic UI Light";
-    margin-top: 6.5vh;
-    font-size: 2.5vw;
-    width:60%;
-    height: 450%;
-    background: rgb(212, 219, 226, 0.8);
-    padding-bottom: 3vw;
-}
-.Info1-2,
-.Info2-1,
-.Info2-2,
-.Info3-1
-{
-    display:none;
-    animation: info 2s;
-    padding-left: 3vw;
-    font-family: "Yu Gothic UI Light";
-    margin-top: 6.5vh;
-    font-size: 2.5vw;
-    width:60%;
-    height: 450%;
-    background: rgb(212, 219, 226, 0.8);
-    padding-bottom: 3vw;
-}
+     {
+         animation: info 2s;
+         padding-left: 3vw;
+         font-family: "Yu Gothic UI Light";
+         margin-top: 6.5vh;
+         font-size: 2.5vw;
+         width:60%;
+         height: 450%;
+         background: rgb(212, 219, 226, 0.8);
+         padding-bottom: 3vw;
+     }
+    .Info1-2,
+    .Info2-1,
+    .Info2-2,
+    .Info3-1,
+    .Info3-2,
+    .Info4-1,
+    .Info4-2,
+    .Info5-1,
+    .Info5-2,
+    .Info6-1,
+    .Info6-2,
+    .Info7-1,
+    .Info7-2,
+    .Info8-1,
+    .Info8-2,
+    .Info9-1,
+    .Info9-2,
+    .Info10-1,
+    .Info10-2,
+    .Info11-1,
+    .Info11-2,
+    .Info12-1,
+    .Info12-2,
+    .Info13-1,
+    .Info13-2,
+    .Info14-1,
+    .Info14-2,
+    .Info15-1,
+    .Info15-2,
+    .Info16-1,
+    .Info16-2,
+    .Info17-1,
+    .Info17-2
+    .Info18-1,
+    .Info18-2,
+    .Info19-1,
+    .Info19-2,
+    .Info20-1,
+    .Info20-2,
+    .Info21-1,
+    .Info21-2,
+    .Info22-1,
+    .Info22-2,
+    .Info23-1,
+    .Info23-2,
+    .Info24-1,
+    .Info24-2,
+    .Info25-1,
+    .Info25-2
+    {
+        display:none;
+        animation: info 2s;
+        padding-left: 3vw;
+        font-family: "Yu Gothic UI Light";
+        margin-top: 6.5vh;
+        font-size: 2.5vw;
+        width:60%;
+        height: 450%;
+        background: rgb(212, 219, 226, 0.8);
+        padding-bottom: 3vw;
+    }
 }
 @keyframes nav {
     from{margin-top:-10vw;}
@@ -170,6 +260,14 @@ body
     display: flex;
     justify-content: center;
 }
+.Nav_Logo
+{
+    height:4vh;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer
 {
     display: flex;
@@ -196,18 +294,11 @@ footer>ul
 }
 .Test
 {
-    width:15vw;
-    border:none;
-    height: 5vw;
-    font-size: 3vw;
-    border-radius: 10px;
-    background: #FF6B00;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display: none ;
 }
 .Test>a
 {
+    display: none;
     text-decoration: none;
     color:white;
 }
